@@ -1,0 +1,61 @@
+header{
+      position: absolute;
+      top:5%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: italic;
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+      text-shadow: 0 0 10px rgba(0, 0, 255, 0.8);
+}
+
+body{
+    background: rgb(236,53,238);
+    background: linear-gradient(90deg, rgba(236,53,238,0.936186974789916) 0%, rgba(24,238,239,0.8689600840336135) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+h1,#title,#description{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#formstyle{   
+   border: 2px solid #333;
+   padding: 20px;
+   border-radius: 10px;
+   align-content: center;
+}
+
+#addItemForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+#label {
+    margin-bottom: 8px;
+  }
+  
+#title {
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+button {
+    padding: 10px;
+    background-color: #7c4caf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4b45a0;
+  }
+  

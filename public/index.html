@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Item List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    Elevate Your Day with Our Inspiring Item Collection
+  </header>
+  <div id="formstyle">
+  <h1>Item List</h1>
+
+  <!-- Form to add new item -->
+  <form id="addItemForm">
+    <label for="title" id="label">Title:</label><br>
+    <input type="text" id="title" name="title" placeholder='Enter title' required><br>
+    <label for="description" id="label">Description:</label><br>
+    <textarea id="description" name="description" placeholder='Enter description' required></textarea><br><br>
+    <button type="submit" class="form-button" id="submit">Add Item</button>
+  </form>
+  </div>
+
+  <!-- Display list of items -->
+  <div id="itemList"></div>
+  <script src="app.js"></script>
+</body>
+</html>
